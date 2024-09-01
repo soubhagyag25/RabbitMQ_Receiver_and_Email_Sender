@@ -1,0 +1,24 @@
+{
+  "name": "rabbitmq-receiver-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/userSignUpConsumer.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.14"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.8.0",
+    "@types/node": "^20.6.4",
+    "@types/nodemailer": "^6.4.15",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
